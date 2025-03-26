@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(Shenanigans.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #222;
+    color: white;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#meme {
+    width: 1200px; /*he's a big'n*/
+    position: absolute;
+    left: 50%;
+    bottom: -200%; /*start the feral peek from off screen*/
+    transform: translateX(-50%);
+    transition: bottom 1s ease-in-out;
+
+  
+}
+
+.rise-up
+ {
+    bottom: 0 !important; /*get him moving smoothly..please*/
+ }
+
+button {
+    z-index: 10; /*because they vanished on me*/
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00;
+    color: black;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+
+
