@@ -36,7 +36,7 @@ body {
 
 button {
     z-index: 10; /*because they vanished on me*/
-    position: relative;
+    position: relative; 
     padding: 10px 20px;
     font-size: 16px;
     margin: 10px;
@@ -51,6 +51,11 @@ button:disabled {
     background-color: gray;
     cursor: not-allowed;
 }
+
+/*originally I brought in keyframes and learned a lot from it, 
+but as I debugged I stripped away all the "extras" in hopes that
+I would eliminate the bugs I couldn't seem to track down.*/
+
 
 
 
